@@ -1,0 +1,103 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+body{
+    background-color: #1B222C;
+}
+
+a{
+    text-decoration: none;
+}
+
+#heading{
+    border-style: solid;
+    border-radius: 15px;
+    border-color: #12151C;
+    background-color: #12151C;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#heading_text{
+    margin-top: 10px;
+}
+
+#github{
+    width: 90px;
+    margin-top: -100px;
+    margin-left: 10px;
+    float: left;
+}
+
+#reddit{
+    width: 90px;
+    margin-top: -100px;
+    margin-left: 110px;
+    float: left;
+}
+
+#grid-cont{
+    display: grid;
+    grid-template-columns: repeat(5, 320px);
+    grid-template-rows: repeat(3, 450px);
+}
+
+.scrap{
+    border-style: solid;
+    border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
+    border-color: white;
+    background-color: #191D26;
+    color: black;
+}
+
+.scrap_title{
+    color: white;
+    position: relative;
+    left: 18px;
+    top: -15px;
+    margin-top: 20px;
+}
+
+.language{
+    width: 40px;
+    position: relative;
+    top: 13.5px;
+    right: -8px;
+}
+
+.scrap_desc{
+    font-size: 22px;
+    text-align: center;
+}
+
+#keylogger{
+    width: 190px;
+    position: relative;
+    left: 33px;
+    bottom: 20px;
+}
+
+#mysql{
+    width: 190px;
+    position: relative;
+    left: 33px;
+    bottom: -8px;
+}
+
+#tkinter{
+    width: 170px;
+    position: relative;
+    left: 45px;
+    bottom: 5px;
+}
+
+#todo{  
+    width: 150px;
+    position: relative;
+    left: 50px;
+    bottom: -20px;
+}
