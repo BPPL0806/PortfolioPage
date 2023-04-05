@@ -7,6 +7,15 @@ body{
     background-color: #1B222C;
 }
 
+footer{
+    background-color: #12151C;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
+
 a{
     text-decoration: none;
 }
@@ -41,7 +50,9 @@ a{
 #grid-cont{
     display: grid;
     grid-template-columns: repeat(5, 320px);
-    grid-template-rows: repeat(3, 450px);
+    grid-template-rows: repeat(2, 450px);
+    grid-row-gap: 40px;
+    margin-left: 7%;
 }
 
 .scrap{
@@ -52,6 +63,13 @@ a{
     border-color: white;
     background-color: #191D26;
     color: black;
+}
+
+.scrap:hover{
+    box-shadow: -10px 12px 15px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -10px 12px 15px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: -10px 12px 15px 0px rgba(0,0,0,0.75);
+    top: -30px;
 }
 
 .scrap_title{
@@ -100,4 +118,19 @@ a{
     position: relative;
     left: 50px;
     bottom: -20px;
+}
+
+#terminal{  
+    width: 190px;
+    position: relative;
+    left: 37px;
+    bottom: 10px;
+}
+
+#sources{
+    color:#3c3d3d
+}
+
+#source_code{
+    color: #6d7177;
 }
