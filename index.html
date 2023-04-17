@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="./dist/output.css">
     <link rel="icon" href="./imgs/favicon.ico">
   </head>
-  <body class="bg-slate-800 bg-cover min-h-screen bg-no-repeat 1200:bg-right font-mono" style="background-image: url('imgs/bg.svg')">
+  <body class="bg-slate-800 bg-cover min-h-screen bg-no-repeat font-mono" style="background-image: url('imgs/bg.svg')">
     <header class="bg-slate-900 h-20 bg-opacity-60">
       <div class="navbar flex flex-row justify-center flex-wrap relative top-5 530:justify-end 530:mr-28">
         <style>
@@ -18,10 +18,34 @@
                 }
             }
 
-            @media screen and (max-width: 350px) {
+            @media screen and (max-width: 380px) {
                 .navbar {
                     margin-right: 2rem;
                 }
+            }
+
+            @media screen and (max-width: 350px){
+                .navbar {
+                    margin-right: 1rem;
+                }
+            }
+
+            @media screen and (max-width: 330px){
+                .navbar {
+                    margin-right: 5px;
+                }
+            }
+
+            @media screen and (max-width: 310px){
+                .navbar {
+                    margin-right: 0px;
+                }
+            }
+
+            @media screen and (max-width: 1200px){
+              body{
+                background: right;
+              }
             }
         </style>
         <img src="./imgs/folder.png" class="mr-2 w-9 h-9">
